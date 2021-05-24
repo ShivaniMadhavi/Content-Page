@@ -6,7 +6,7 @@ import Home from '../src/modules/home/components/ContentListingPage';
 function App() {
   return (
     <div className="App">
-      <Router >
+      <Router basename="/Content-Page" >
         <Switch>
 
          <Route exact  path="/" component={Home} />
